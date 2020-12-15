@@ -41,30 +41,31 @@
     </div>
   </section>
   <!--/sezione acquista-->
-  
-  <h2>il tuo biglietto</h2>
+  <section id="genera-ticket">
+    <h2>il tuo biglietto</h2>
 
-  <!--sezione ticket-->
-  <section id="ticket">
-    <div class="stampa_biglietto">
-      <h3>dettaglio passeggeri</h3>
-      <div class="dettagli">
-        <div class="title-fixed nome">nome passeggero</div>
-        <div class="title-fixed offerta">offerta</div>
-        <div class="title-fixed carrozza">carrozza</div>
-        <div class="title-fixed codice-CP">codice cp</div>
-        <div class="title-fixed costo-biglietto">costo biglietto</div>
+    <!--sezione ticket-->
+    <section id="ticket">
+      <div id="stampa_biglietto">
+        <h3>dettaglio passeggeri</h3>
+        <div class="dettagli">
+          <div class="title-fixed nome">nome passeggero</div>
+          <div class="title-fixed offerta">offerta</div>
+          <div class="title-fixed carrozza">carrozza</div>
+          <div class="title-fixed codice-CP">codice cp</div>
+          <div class="title-fixed costo-biglietto">costo biglietto</div>
+        </div>
+        <div class="dettagli">
+          <div class="result ticket-nome" id="nome-stampato"></div>
+          <div class="result ticket-offerta" id="offerta"></div>
+          <div class="result ticket-carozza" id="numeroCarrozza"></div>
+          <div class="result ticket-codice-CP" id="codiceCp"></div>
+          <div class="result ticket-costo-biglietto" id="costo"></div>
+        </div>
       </div>
-      <div class="dettagli">
-        <div class="result ticket-nome" id="nome-stampato"></div>
-        <div class="result ticket-offerta" id="offerta"></div>
-        <div class="result ticket-carozza" id="numeroCarrozza"></div>
-        <div class="result ticket-codice-CP" id="codiceCp"></div>
-        <div class="result ticket-costo-biglietto" id="costo"></div>
-      </div>
-    </div>
+    </section>
+    <!--/sezione ticket-->
   </section>
-  <!--/sezione ticket-->
 </main>
   
   <script src="js/script.js"></script>

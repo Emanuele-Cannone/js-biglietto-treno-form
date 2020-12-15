@@ -60,6 +60,16 @@ h2{
   text-transform: uppercase;
 }
 
+/*+++++++++ sezione genera ticket ++++++++++*/
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
 /*+++++++++ sezione ticket ++++++++++*/
 
 section#ticket{
@@ -104,3 +114,4 @@ section#ticket{
 .dettagli:last-child{
   border-bottom: 1px solid #808080;
 }
+

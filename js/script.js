@@ -36,16 +36,19 @@ document.getElementById("genera").addEventListener("click", function() {
   document.getElementById('nome-stampato').innerHTML = nome;
   document.getElementById('offerta').innerHTML = message;
   document.getElementById('costo').innerHTML = costo.toFixed(2) + '€';
-
-
-  //controlla se i dati vengono presi
-  //console.log(nome, km,  costo, message);
+  document.getElementById('genera-ticket').className = 'show';
 });
 
+
+//con il click sul pulsante annulla tutti i risultati devono essere vuoti
+//con className hidden vado ad aggiungere la classe 'hidden' e quindi non visualizzo la sezione
+
 document.getElementById("annulla").addEventListener("click", function() {
+  document.getElementById('genera-ticket').className = 'hidden';
   document.getElementById('nome-stampato').innerHTML = ' ';
   document.getElementById('offerta').innerHTML = ' ';
   document.getElementById('costo').innerHTML = ' ';
   document.getElementById('codiceCp').innerHTML = ' ';
   document.getElementById('numeroCarrozza').innerHTML = ' ';
 });
+
