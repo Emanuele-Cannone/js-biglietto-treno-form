@@ -80,8 +80,20 @@ section#ticket{
   display: flex;
 }
 
-/*non mi prende questa informazione!!!!!!!!!!!!!!!!!!!*/
+.title-fixed,
+.result{
+  flex-direction: column;
+  flex-basis: calc(100% / 5);
+  padding-bottom: 20px;
+  text-align: center;
+}
 
+.nome,
+.ticket-nome{
+  background-color: lightgrey;
+}
+
+/*non mi prende questa informazione!!!!!!!!!!!!!!!!!!!*/
 
 .dettagli:first-child{
   border-top: 1px solid #808080;
@@ -89,18 +101,6 @@ section#ticket{
 
 /*non mi prende questa informazione!!!!!!!!!!!!!!!!!!!*/
 
-
-
 .dettagli:last-child{
   border-bottom: 1px solid #808080;
-}
-
-.ciao{
-  flex-direction: column;
-  flex-basis: calc(100% / 5);
-  padding-bottom: 20px;
-}
-
-.ciao:first-child{
-  background-color: #808080;
 }
