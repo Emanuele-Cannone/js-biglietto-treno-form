@@ -16,16 +16,16 @@
   <!--sezione acquista-->
   <section id="acquista">
     <div class="contenitore">
-      <table class="row-up">
+      <table class="row-up capitalize">
         <tr>
           <td>nome cognome</td>
           <td>km da percorrere</td>
           <td>fascia d&lsquo;et&agrave;</td>
         </tr>
         <tr>
-          <td><input id="nome" type="text" placeholder="Inserisci il tuo nome"></td>
+          <td><input id="nome" type="text" placeholder="Inserisci nome e cognome"></td>
           <td><input type="number" name="km" id="km"></td>
-          <td><select name="genere" id="genere">
+          <td><select name="genere" id="genere" class="capitalize">
             <option value="minorenne">minorenne</option>
             <option value="maggiorenne">maggiorenne</option>
             <option value="over65">over65</option>
@@ -49,15 +49,15 @@
       <div id="stampa_biglietto">
         <h3>dettaglio passeggeri</h3>
         <div class="dettagli">
-          <div class="title-fixed nome">nome passeggero</div>
-          <div class="title-fixed offerta">offerta</div>
-          <div class="title-fixed carrozza">carrozza</div>
-          <div class="title-fixed codice-CP">codice cp</div>
-          <div class="title-fixed costo-biglietto">costo biglietto</div>
+          <div class="title-fixed nome capitalize">nome passeggero</div>
+          <div class="title-fixed offerta capitalize">offerta</div>
+          <div class="title-fixed carrozza capitalize">carrozza</div>
+          <div class="title-fixed codice-CP capitalize">codice cp</div>
+          <div class="title-fixed costo-biglietto capitalize">costo biglietto</div>
         </div>
         <div class="dettagli">
-          <div class="result ticket-nome" id="nome-stampato"></div>
-          <div class="result ticket-offerta" id="offerta"></div>
+          <div class="result ticket-nome capitalize" id="nome-stampato"></div>
+          <div class="result ticket-offerta capitalize" id="offerta"></div>
           <div class="result ticket-carozza" id="numeroCarrozza"></div>
           <div class="result ticket-codice-CP" id="codiceCp"></div>
           <div class="result ticket-costo-biglietto" id="costo"></div>

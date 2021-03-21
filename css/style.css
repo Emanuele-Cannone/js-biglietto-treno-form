@@ -18,6 +18,14 @@ header{
   color: white;
 }
 
+
+/*+++++++++ riutilizzabili ++++++++++*/
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+
 /*+++++++++ sezione acquista ++++++++++*/
 
 .contenitore{
@@ -92,7 +100,6 @@ section#ticket{
 
 .title-fixed,
 .result{
-  flex-direction: column;
   flex-basis: calc(100% / 5);
   padding-bottom: 20px;
   text-align: center;
